@@ -1,0 +1,389 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>responsive shop website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <!--font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<!--customised css file-->
+<link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <!--header start-->
+    <header class="header">
+        <a href="#" class="logo"><i class="fas fa-shopping-basket"></i>Jojo's</a>
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#features">features</a>
+            <a href="#products">products</a>
+            <a href="#categories">categories</a>
+            <a href="#review">review</a>
+            <a href="#blogs">blogs</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+
+     <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <div class="shopping-cart">
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="pics/white vase.jpg" alt="">
+            <div class="content">
+                <h3>white oval vase</h3>
+                <span class="price">$49.99/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="pics/wooden vase.jpg" alt="">
+            <div class="content">
+                <h3>wooden vase</h3>
+                <span class="price">$79.99/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="pics/woman shaped candle.jpg" alt="">
+            <div class="content">
+                <h3>woman candle</h3>
+                <span class="price">$25.99/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="pics/container candle.jpg" alt="">
+            <div class="content">
+                <h3>glass candle</h3>
+                <span class="price">$40.99/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="total">total : $196.96/-</div>
+            <a href="#" class="btn">checkout</a>
+    </div>
+    
+    <form action="" class="login-form">
+        <h3>login now</h3>
+        <input type="email" placeholder="enter email"class="box"> 
+        <input type="password" placeholder="enter password"class="box"> 
+        <p>forget your password <a href="#">Click here</a></p>
+        <p>new here <a href="#">Create now</a></p>
+        <input type="submit" value="login now" class="btn">
+    </form>
+    </header>
+
+
+    <!--header end-->
+
+    <!--home section starts-->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>beautiful and<span> unique</span> products</h3>
+            <p> home made just for you</p>
+            <a href="#" class="btn">Shop Now!!</a>
+        </div>
+    </section>
+    <!--home section ends-->
+
+<!--features section starts-->
+<section class="features" id="features">
+    <h1 class="heading">our<span> features</span></h1>
+
+    <div class="box-container">
+        <div class="box">
+            <img src="pics/candle1.jpg" alt="">
+            <h3>homemade and unique</h3>
+            <p>for your everyday use</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+        <div class="box">
+            <img src="pics/delivery1.png" alt="">
+            <h3>free delivery</h3>
+            <p>at your comfort</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+        <div class="box">
+            <img src="pics/payment1.jpg" alt="">
+            <h3>easy payment</h3>
+            <p>fast and reliable</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+    </div>
+</section>
+
+<!--features section ends-->
+
+<!--product section begins-->
+<section class="products" id="products">
+    <h1 class="heading">our<span>Products</span> </h1>
+    <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="pics/tulia.jpg" alt="">
+              <h3>Tulia</h3>  
+              <div class="price">kes 1,000... 2,500</div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="pics/furaha.png" alt="">
+              <h3>furaha</h3>  
+              <div class="price">kes 1,000... 2,500</div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="pics/mpenzi.png" alt="">
+              <h3>mpenzi</h3>  
+              <div class="price">kes 1,000... 2,500</div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="pics/woman shaped candle.jpg" alt="">
+              <h3>Lady</h3>  
+              <div class="price">kes 1,000... 2,500</div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!--product section ends-->
+
+<!--categories section starts-->
+<section class="categories" id="categories">
+    <h1 class="heading">product<span>categories</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="pics/candle1.jpg" alt="">
+            <h3>Candles</h3>
+            <p>buy 3 get 1 Free!!</p>
+            <a href="#" class="btn">shop now</a>
+      </div>
+      
+    <div class="box">
+    <img src="pics/vase2.png" alt="">
+    <h3>Vases</h3>
+    <p>buy 2 get 10% off</p>
+    <a href="#" class="btn">shop now</a>
+    </div>
+
+    <div class="box">
+        <img src="pics/essential oils.jpg" alt="">
+        <h3>essential oils</h3>
+        <p>for al your needs</p>
+        <a href="#" class="btn">shop now</a>
+        </div>
+</div>
+</section>
+
+<!--categories section ends-->
+
+<!-- review section starts-->
+<section class="review" id="review">
+    <h1 class="heading">Customer's<span>review</span></h1>
+
+    <div class="swiper review-slider">
+        <div class="swiper-wrapper">
+        <div class="swiper-slide box">
+            <img src="pics/K.jpg"alt="">
+            <p>i am so impressed by the candles. they smell so good. and the delivery was fast. totally worth it</p>
+            <h3>Janet King</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+        <div class="swiper-slide box">
+            <img src="pics/T.jpg"alt="">
+            <p>order my vase and it was here in a day. it's so beautiful 10/10 recommend</p>
+            <h3>Nyambura.T</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+
+        <div class="swiper-slide box">
+            <img src="PICS/w.jpg"alt="">
+            <p> the furaha candles is to die for. worth it</p>
+            <h3>Joel Warui</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+</section>
+<!-- review section ends-->
+
+<!--blogs section starts-->
+<section class="blogs" id="blogs">
+    <h1 class="heading">our<span>blogs</span></h1>
+    <div class="box-container">
+
+        <div class="box">
+            <img src="pics/container candle.jpg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"><i class="fas fa-user"></i>by user</a>
+                    <a href="#"><i class="fas fa-calendar"></i>05 November,2022</a>
+                </div>
+                <h3>hand made candles</h3>
+                <p>hand crafted with love</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="pics/wooden vase.jpg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"><i class="fas fa-user"></i>by user</a>
+                    <a href="#"><i class="fas fa-calendar"></i>21 July,2022</a>
+                </div>
+                <h3>wooden vases</h3>
+                <p>adds warmth to any space</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="pics/vase2.png" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"><i class="fas fa-user"></i>by user</a>
+                    <a href="#"><i class="fas fa-calendar"></i>13 September,2022</a>
+                </div>
+                <h3>white vases</h3>
+                <p>simple and elegant</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!--blogs section ends-->
+
+<!--footer section starts-->
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>Jojo's<i class="fas fa-shopping-basket"></i></h3>
+            <p>sharing is caring</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>Contact info</h3>
+            <a href="#" class="links"><i class="fas fa-phone"></i>07987654</a>
+            <a href="#" class="links"><i class="fas fa-phone"></i>07987789</a>
+            <a href="#" class="links"><i class="fas fa-envelope"></i>Jojos@gmail.com</a>
+            <a href="#" class="links"><i class="fas fa-map-marker-alt"></i>Nairobi, Kenya</a>
+        </div>
+        
+        <div class="box">
+            <h3>Quick links</h3>
+            <a href="#" class="links"><i class="fas fa-arrow-right"></i>home</a>
+            <a href="#" class="links"><i class="fas fa-arrow-right"></i>features</a>
+            <a href="#" class="links"><i class="fas fa-arrow-right"></i>products</a>
+            <a href="#" class="links"><i class="fas fa-arrow-right"></i>categories</a>
+            <a href="#" class="links"><i class="fas fa-arrow-right"></i>review</a>
+            <a href="#" class="links"><i class="fas fa-arrow-right"></i>blogs</a>   
+        </div>
+        
+        <div class="box">
+            <h3>newsletters</h3>
+           <p>subscribe for latest updates</p>
+           <input type="email" placeholder="your email" class="email">
+           <input type="submit" value="subscribe" class="btn">
+           <img src="pics/payment1.jpg" class="payment-img" alt="">
+        </div>
+    </div>
+    <div class="credits">created by<span> Miss Muhingo</span> |all rights reserved</div>
+</section>
+
+<!--footer section ends-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+ <!--customised js file-->
+ <script src="script.js"></script>  
+</body>
+</html>
